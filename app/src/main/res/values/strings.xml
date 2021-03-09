@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IQ-step</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_start">Start</string>
+    <string name="p_pink_up">aa</string>
+    <string name="p_olive_up">ba</string>
+    <string name="p_pink_down">ae</string>
+    <string name="p_olive_down">be</string>
+    <string name="p_red_up">ca</string>
+    <string name="p_red_down">ce</string>
+    <string name="p_green_up">da</string>
+    <string name="p_green_down">de</string>
+    <string name="p_orange_up">ea</string>
+    <string name="p_orange_down">ee</string>
+    <string name="p_purple_up">fa</string>
+    <string name="p_purple_down">fe</string>
+    <string name="p_yellow_up">ga</string>
+    <string name="p_yellow_down">ge</string>
+    <string name="p_blue_up">ha</string>
+    <string name="p_blue_down">he</string>
+</resources>
