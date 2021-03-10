@@ -20,48 +20,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/ba"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:contentDescription="@string/p_olive_up"
-        app:layout_constraintBottom_toTopOf="@+id/ca"
-        app:layout_constraintEnd_toStartOf="@+id/fa"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aa"
-        app:srcCompat="@drawable/ba" />
-
-    <ImageView
-        android:id="@+id/fa"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/ga"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ba"
-        app:layout_constraintTop_toBottomOf="@+id/ea"
-        app:srcCompat="@drawable/fa" />
-
-    <ImageView
-        android:id="@+id/ca"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/da"
-        app:layout_constraintEnd_toStartOf="@+id/ga"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ba"
-        app:srcCompat="@drawable/ca" />
-
+    <!--Chess A Up-->
     <ImageView
         android:id="@+id/aa"
         android:layout_width="80dp"
@@ -78,6 +37,72 @@
         app:layout_constraintVertical_chainStyle="spread"
         app:srcCompat="@drawable/aa" />
 
+    <!--Chess A Back-->
+    <ImageView
+        android:id="@+id/ae"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/p_pink_up"
+        app:layout_constraintBottom_toTopOf="@+id/ba"
+        app:layout_constraintEnd_toStartOf="@+id/ee"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        app:srcCompat="@drawable/ae"/>
+
+    <!--Chess B Up-->
+    <ImageView
+        android:id="@+id/ba"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/p_olive_up"
+        app:layout_constraintBottom_toTopOf="@+id/ca"
+        app:layout_constraintEnd_toStartOf="@+id/fa"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aa"
+        app:srcCompat="@drawable/ba" />
+
+
+    <!--Chess B Back-->
+    <ImageView
+        android:id="@+id/be"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/p_olive_up"
+        app:layout_constraintBottom_toTopOf="@+id/ca"
+        app:layout_constraintEnd_toStartOf="@+id/fe"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aa"
+        app:srcCompat="@drawable/be" />
+
+
+    <ImageView
+        android:id="@+id/ca"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="@string/p_red_up"
+        app:layout_constraintBottom_toTopOf="@+id/da"
+        app:layout_constraintEnd_toStartOf="@+id/ga"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ba"
+        app:srcCompat="@drawable/ca" />
+
 
     <ImageView
         android:id="@+id/da"
@@ -85,6 +110,7 @@
         android:layout_height="80dp"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
+        android:contentDescription="@string/p_green_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ha"
         app:layout_constraintHorizontal_bias="0.5"
@@ -93,12 +119,14 @@
         app:layout_constraintTop_toBottomOf="@+id/ca"
         app:srcCompat="@drawable/da" />
 
+    <!-- Chess E Up-->
     <ImageView
         android:id="@+id/ea"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
+        android:contentDescription="@string/p_orange_up"
         app:layout_constraintBottom_toTopOf="@+id/fa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -106,12 +134,73 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ea" />
 
+    <!-- Chess E Back-->
+    <ImageView
+        android:id="@+id/ee"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:contentDescription="@string/p_orange_up"
+        app:layout_constraintBottom_toTopOf="@+id/fa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ae"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ee" />
+
+    <!--Cheese F Up-->
+    <ImageView
+        android:id="@+id/fa"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:contentDescription="@string/p_purple_up"
+        app:layout_constraintBottom_toTopOf="@+id/ga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ba"
+        app:layout_constraintTop_toBottomOf="@+id/ea"
+        app:srcCompat="@drawable/fa" />
+
+    <ImageView
+        android:id="@+id/fe"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:contentDescription="@string/p_purple_up"
+        app:layout_constraintBottom_toTopOf="@+id/ga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/be"
+        app:layout_constraintTop_toBottomOf="@+id/ea"
+        app:srcCompat="@drawable/fe" />
+
+    <!--Cheese G Up-->
+    <ImageView
+        android:id="@+id/ga"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:contentDescription="@string/p_yellow_up"
+        app:layout_constraintBottom_toTopOf="@+id/ha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ca"
+        app:layout_constraintTop_toBottomOf="@+id/fa"
+        app:srcCompat="@drawable/ga" />
+
+    <!--Cheese H Up-->
     <ImageView
         android:id="@+id/ha"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
+        android:contentDescription="@string/p_blue_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -119,18 +208,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ga"
         app:srcCompat="@drawable/ha" />
 
-    <ImageView
-        android:id="@+id/ga"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/ha"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/ca"
-        app:layout_constraintTop_toBottomOf="@+id/fa"
-        app:srcCompat="@drawable/ga" />
+
 
     <TextView
         android:id="@+id/textView"

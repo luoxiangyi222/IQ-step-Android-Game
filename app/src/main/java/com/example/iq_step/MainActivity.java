@@ -7,11 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.iq_step.code.Board;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Board board = new Board();
         setContentView(R.layout.activity_main);
 
     }
